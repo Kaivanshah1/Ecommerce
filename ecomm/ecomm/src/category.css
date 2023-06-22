@@ -1,0 +1,12 @@
+.outer {
+  background-color: bisque;
+}
+.inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  padding: 20px;
+  background-color: white;
+  color: blue;
+  width: 100%;
+}

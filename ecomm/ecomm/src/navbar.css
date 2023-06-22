@@ -1,0 +1,27 @@
+.outer {
+  background-color: black;
+  color: black;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  margin: 0;
+}
+.outer .topp {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin-left: 850px;
+  padding: 30px;
+}
+.outer .topp .nav-link {
+  text-decoration: none;
+  background-color: antiquewhite;
+  color: black;
+  font-size: 30px;
+  font-weight: 20px;
+}
+.topp .nav-link:hover {
+  color: #c65032;
+}
